@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "paths": {
+    "/": {
+      "name": "/",
+      "lambdaFunction": "TIPSDashboardApiKeyGenerator",
+      "permissions": {
+        "groups": {
+          "Staff": [
+            "create",
+            "read",
+            "update",
+            "delete"
+          ],
+          "Admin": [
+            "create",
+            "read",
+            "update",
+            "delete"
+          ]
+        },
+        "setting": "private"
+      }
+    }
+  }
+}

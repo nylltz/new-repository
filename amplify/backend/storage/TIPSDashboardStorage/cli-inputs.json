@@ -1,0 +1,13 @@
+{
+  "resourceName": "TIPSDashboardStorage",
+  "policyUUID": "444638b7",
+  "bucketName": "tipsdashboardbucket",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE"
+}
